@@ -5,13 +5,10 @@ import replace from 'rollup-plugin-replace';
 import bucklescript from 'rollup-plugin-bucklescript';
 
 export default {
-  input: 'src/index.re',
+  input: 'lib/es6_global/src/index.js',
   plugins: [
-    bucklescript({
-      module: 'es6'
-    }),
     alias({
-      resolve: ['.re']
+      resolve: ['.js']
     }),
     replace({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')

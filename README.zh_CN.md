@@ -4,7 +4,8 @@
 [README in English](README.md)
 
 ## dev
-- `yarn run dev`
+- open a terminal, run `yarn run bsb-watch`
+- open another terminal, run `yarn run dev`
 - open `http://localhost:8080/example/index.html`
 - enjoy!
 

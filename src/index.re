@@ -10,3 +10,5 @@ let fizzbuzz = (i) =>
 for (i in 1 to 100) {
   Js.log(fizzbuzz(i))
 };
+
+Js.log("Hello Reason");
