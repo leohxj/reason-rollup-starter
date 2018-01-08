@@ -224,7 +224,7 @@ anymatch@^1.3.0:
     micromatch "^2.1.5"
     normalize-path "^2.0.0"
 
-app-root-path@^2.0.0:
+app-root-path@^2.0.0, app-root-path@~2.0.1:
   version "2.0.1"
   resolved "http://registry.npm.taobao.org/app-root-path/download/app-root-path-2.0.1.tgz#cd62dcf8e4fd5a417efc664d2e5b10653c651b46"
 
@@ -736,6 +736,13 @@ commitizen@^2.9.6:
     path-exists "2.1.0"
     shelljs "0.7.6"
     strip-json-comments "2.0.1"
+
+commitlint-config-cz@^0.7.0:
+  version "0.7.0"
+  resolved "http://registry.npm.taobao.org/commitlint-config-cz/download/commitlint-config-cz-0.7.0.tgz#4aafaf00e8d149fa3554e4e7c5efaa27e54faf15"
+  dependencies:
+    app-root-path "~2.0.1"
+    lodash.clonedeep "~4.5.0"
 
 compare-func@^1.3.1:
   version "1.3.2"
@@ -2401,6 +2408,10 @@ lodash._reinterpolate@~3.0.0:
 lodash.camelcase@4.3.0:
   version "4.3.0"
   resolved "http://registry.npm.taobao.org/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+
+lodash.clonedeep@~4.5.0:
+  version "4.5.0"
+  resolved "http://registry.npm.taobao.org/lodash.clonedeep/download/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
 
 lodash.kebabcase@4.1.1:
   version "4.1.1"
