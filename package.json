@@ -22,7 +22,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -e $GIT_PARAMS"
     }
   },
   "lint-staged": {
@@ -37,6 +38,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "@commitlint/cli": "^5.2.8",
+    "@commitlint/config-conventional": "^5.2.3",
     "@glennsl/bs-jest": "^0.3.2",
     "bs-platform": "^2.1.0",
     "commitizen": "^2.9.6",
