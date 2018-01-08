@@ -5,8 +5,11 @@ import replace from 'rollup-plugin-replace';
 import bucklescript from 'rollup-plugin-bucklescript';
 
 export default {
-  input: 'src/main.re',
+  input: 'src/index.re',
   plugins: [
+    bucklescript({
+      module: 'es6'
+    }),
     alias({
       resolve: ['.re']
     }),
@@ -18,7 +21,6 @@ export default {
       // non-CommonJS modules will be ignored, but you can also
       // specifically include/exclude files
       include: 'node_modules/**'
-    }),
-    bucklescript()
+    })
   ]
 }
