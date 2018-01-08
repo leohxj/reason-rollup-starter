@@ -1,0 +1,11 @@
+{
+  "name": "reason-with-rollup",
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
+  "package-specs": ["es6"],
+  "sources": [
+    {
+      "dir": "src"
+    }
+  ],
+  "refmt": 3
+}
